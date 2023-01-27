@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<UseWindowsForms>true</UseWindowsForms>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PackageId>$(AssemblyName)</PackageId>
+	<Authors>Sinan ILYAS</Authors>
+	<Description>Zeytinbey.Windows.Forms is a package which includes libraries that facilitate Windows Forms operations.</Description>
+	<Copyright>All rights reserved.</Copyright>
+	<PackageTags>winforms winform windows forms messagebox mesaj helper</PackageTags>
+	<Title>$(AssemblyName)</Title>
+	<Version>1.0.1</Version>
+	<AssemblyVersion>$(Version).0</AssemblyVersion>
+	<FileVersion>$(Version).0</FileVersion>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageReadmeFile>Readme.md</PackageReadmeFile>
+	<PackageReleaseNotes>Turkish classes are moved to Zeytinbey.Windows.Forms.Turkish namespace. Added MessageBoxHelper class.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
