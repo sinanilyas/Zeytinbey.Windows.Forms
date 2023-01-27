@@ -1,6 +1,6 @@
 ﻿namespace Zeytinbey.Windows.Forms;
 
-internal class MessageBoxHelper
+public class MessageBoxHelper
 {
     public static bool ShowConfirmation(string message, bool isYesDefault = false)
     {
