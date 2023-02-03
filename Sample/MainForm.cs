@@ -26,6 +26,9 @@ namespace Sample
 
             var isConfirmed = MessageBoxHelper.ShowConfirmation("Record will be deleted.");
             if (isConfirmed) MessageBoxHelper.ShowInfo("Record deleted.");
+
+            MessageBoxHelper.Show("Message.");
+            MessageBoxHelper.Show("Message.", "Caption", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly, false);
         }
     }
 }

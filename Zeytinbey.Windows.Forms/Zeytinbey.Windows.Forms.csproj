@@ -12,12 +12,12 @@
 	<Copyright>All rights reserved.</Copyright>
 	<PackageTags>winforms winform windows forms messagebox mesaj helper</PackageTags>
 	<Title>$(AssemblyName)</Title>
-	<Version>1.0.2</Version>
+	<Version>1.0.3</Version>
 	<AssemblyVersion>$(Version).0</AssemblyVersion>
 	<FileVersion>$(AssemblyVersion)</FileVersion>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<PackageReadmeFile>Readme.md</PackageReadmeFile>
-	<PackageReleaseNotes>FIX: MessageBoxHelper class was not visible.</PackageReleaseNotes>
+	<PackageReleaseNotes>MessageBoxHelper class now has Show methods that work exactly as the ones in MessageBox class.</PackageReleaseNotes>
 	<PackageProjectUrl>https://github.com/sinanilyas/Zeytinbey.Windows.Forms</PackageProjectUrl>
 	<RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>
